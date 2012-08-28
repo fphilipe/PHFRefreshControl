@@ -2,7 +2,7 @@
 
 **YAPTR**™: Yet another pull-to-refresh
 
-![image](demo.gif)
+![image](https://raw.github.com/fphilipe/PHFRefreshControl/master/demo.gif)
 
 ## Why?
 
@@ -22,21 +22,21 @@
 
 Adding a refresh control to a scroll view:
 
-```Objective-C
-    PHFRefreshControl *refreshControl = [PHFRefreshControl new];
-    [refreshControl setTintColor:tintColor];
-    [refreshControl addTarget:dataController
-                       action:@selector(reload)
-             forControlEvents:UIControlEventValueChanged];
-    [scrollView setRefreshControl:refreshControl];
+```objectivec
+PHFRefreshControl *refreshControl = [PHFRefreshControl new];
+[refreshControl setTintColor:tintColor];
+[refreshControl addTarget:dataController
+                   action:@selector(reload)
+         forControlEvents:UIControlEventValueChanged];
+[scrollView setRefreshControl:refreshControl];
 ```
 
 Triggering a refresh programmatically:
 
-```Objective-C
-    [[scrollView refreshControl] beginRefresh];
-    work();
-    [[scrollView refreshControl] endRefresh];
+```objectivec
+[[scrollView refreshControl] beginRefresh];
+work();
+[[scrollView refreshControl] endRefresh];
 ```
 
 ## Small Print
