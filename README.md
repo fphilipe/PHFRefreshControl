@@ -18,6 +18,16 @@
 - View has a magical height of 44 points.
 - iOS 5 and up (yeah, that's a feature).
 
+## Installation
+
+The prefered way is to use [CococaPods](http://cocoapods.org).
+
+```ruby
+pod 'PHFRefreshControl', '~> 1.0.0'
+```
+
+If you can't use CocoaPods for some reason (you really should though, it's the cool kid on the block), then grab the `PHFRefreshControl.{h,m}` files and put it in your project. Make sure to add `QuartzCore` framework if you haven't already.
+
 ## Usage
 
 Adding a refresh control to a scroll view:
