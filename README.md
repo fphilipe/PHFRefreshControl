@@ -44,9 +44,9 @@ PHFRefreshControl *refreshControl = [PHFRefreshControl new];
 Triggering a refresh programmatically:
 
 ```objectivec
-[[scrollView refreshControl] beginRefresh];
+[[scrollView refreshControl] beginRefreshing];
 work();
-[[scrollView refreshControl] endRefresh];
+[[scrollView refreshControl] endRefreshing];
 ```
 
 ## Small Print
