@@ -7,7 +7,7 @@
 ## Why?
 
 - Other existing solutions were quite complex and often implement an infinite scroll thingy and a last refresh date which I don't need.
-- These also often don't work correctly if you use a top `contentInset` on the scroll view which I need. Heck not even Apple's own █████████ respects that property (but then again, it's still β).
+- These also often don't work correctly if you use a top `contentInset` on the scroll view which I need. Heck not even Apple's own UIRefreshControl respects that property.
 
 ## Features
 
