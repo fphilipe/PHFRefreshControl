@@ -53,7 +53,7 @@ work();
 
 ### License
 
-`PHFDelegateChain` is released under the MIT license.
+`PHFRefreshControl` is released under the MIT license.
 
 ### Author
 
