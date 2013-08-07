@@ -1,6 +1,6 @@
 # PHFRefreshControl
 
-**YAPTR**™: Yet another pull-to-refresh
+**YAPTR**™: Yet another pull-to-refresh. (Compose bar not included. See [PHFComposeBarView](https://github.com/fphilipe/PHFComposeBarView) if you like it.)
 
 ![image](https://raw.github.com/fphilipe/PHFRefreshControl/master/demo.gif)
 
