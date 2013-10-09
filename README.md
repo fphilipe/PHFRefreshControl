@@ -62,3 +62,7 @@ Philipe Fatio ([@fphilipe](http://twitter.com/fphilipe))
 ### Credits
 
 The arrow drawing code was adapted from Sam Vermette's [SVPullToRefresh](https://github.com/samvermette/SVPullToRefresh). 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fphilipe/phfrefreshcontrol/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
